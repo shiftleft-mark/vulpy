@@ -13,7 +13,7 @@ import hashlib
 import os
 
 salt = os.urandom(32) # Remember this
-#password = 'FINDMYSECRET'
+password = 'FINDMYSECRET'
 
 key = hashlib.pbkdf2_hmac(
     'sha256', # The hash digest algorithm for HMAC
